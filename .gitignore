@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+*/node_modules/
+*.package-lock.json
+
+# Build outputs
+admin-panel/build/
+customer-app/build/
+*.apk
+*.aab
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads
+*/uploads/*
+!*/uploads/.gitkeep
+
+# Database
+*.sql.bak
+
+# Flutter
+.customer-app/.dart_tool/
+.customer-app/.flutter-plugins
+.customer-app/.flutter-plugins-dependencies
+.customer-app/.packages
+.rider-app/.dart_tool/
+.rider-app/.flutter-plugins
+.rider-app/.flutter-plugins-dependencies
+.rider-app/.packages
