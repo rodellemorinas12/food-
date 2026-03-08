@@ -1,4 +1,13 @@
 {
+  "name": "food-delivery-system",
+  "version": "1.0.0",
+  "description": "Complete Food Delivery System with Admin Panel, Merchant Panel, Customer App, and Rider App",
+  "license": "MIT",
+  "scripts": {
+    "start": "cd backend && node server.js",
+    "dev": "cd backend && nodemon server.js",
+    "tunnel": "cd backend && node start-tunnel.js"
+  },
   "dependencies": {
     "localtunnel": "^2.0.2"
   }
