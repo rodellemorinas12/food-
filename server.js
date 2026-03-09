@@ -28,6 +28,11 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+// Root route
+app.get("/", (req, res) => {
+  res.send("Food Delivery Backend API is running 🚀");
+});
+
 // API Routes
 app.use("/api/auth", authRoutes);
 app.use("/api/restaurants", restaurantRoutes);
